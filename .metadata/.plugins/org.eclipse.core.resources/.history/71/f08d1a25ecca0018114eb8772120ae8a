@@ -1,0 +1,15 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static boolean checkIfHello(String myString) {
+		if (myString == "Hello") {
+			return True;
+		} else {
+			return False;
+		}
+	}
+}

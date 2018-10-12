@@ -1,0 +1,24 @@
+package com.qa.Library;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Library {
+
+	private List<Item> libraryItems;
+	private List<Person> libraryCustomers;
+	
+	public Library() {
+		libraryItems = new ArrayList<>();
+		libraryCustomers = new ArrayList<>();
+	}
+	
+	public List<Item> add(Item item) {
+		libraryItems.add(item);
+		return libraryItems;
+	}
+	
+	public List<Person> register() {
+		return libraryCustomers;
+	}
+}

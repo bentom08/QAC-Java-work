@@ -1,0 +1,14 @@
+package com.qa.Goldilocks;
+
+public class Porridge extends Seat{
+	private int temp;
+	
+	public int getTemp() {
+		return temp;
+	}
+
+	public Porridge(int t1) {
+		this.temp = t1;
+		
+	}
+}

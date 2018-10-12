@@ -1,0 +1,17 @@
+package com.qa.Goldilocks;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Table myTable = new Table(100, 80);
+		
+		myTable.addSeat(new Seat(40, 130));
+		myTable.addSeat(new Seat(130, 60));
+		myTable.addSeat(new Seat(110, 65));
+		myTable.addSeat(new Seat(90, 60));
+		myTable.addSeat(new Seat(110, 75));
+		myTable.addSeat(new Seat(40, 130));
+		
+		myTable.whichSeats();
+	}
+}

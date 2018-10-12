@@ -1,0 +1,16 @@
+package com.qa.CheckStringLambdas;
+
+import java.util.function.BiPredicate;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static boolean checkString(String string1, String string2) {
+		BiPredicate<String, String> myBiInterface = s1, s2 -> s1 == s2;
+		
+		return myBiInterface.and(string1, string2);
+	}
+}

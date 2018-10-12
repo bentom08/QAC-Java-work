@@ -1,0 +1,27 @@
+package com.qa.PaintWizard;
+
+import java.util.Comparator;
+import java.util.List;
+
+public class PaintWizard {
+
+	List<Paint> paints;
+
+	public PaintWizard(List<Paint> paints) {
+		this.paints = paints;
+	}
+
+	public Paint cheapestPaint(int roomSize) {
+		paints.stream().forEach(i -> i.setRoomCost(
+								((roomSize / i.getAreaPerContainer()) + 1)
+								* i.getCost()));
+
+		return paints.stream().min(Comparator.comparing(i -> i.getRoomCost())).get();
+	}
+
+	public Paint leastWaste(int roomSize) {
+		paints.stream().forEach(i -> i.setWastedPaint(((roomSize / i.getAreaPerContainer()) + 1)*i.getAreaPerContainer() - roomSize));
+		
+		return paints.stream().min(Comparator.comparing(i -> i.getWastedPaint())).get();
+	}
+}

@@ -1,0 +1,25 @@
+package com.qa.PaintWizard;
+
+import java.util.Comparator;
+import java.util.List;
+
+public class PaintWizard {
+
+	List<Paint> paints;
+
+	public PaintWizard(List<Paint> paints) {
+		this.paints = paints;
+	}
+
+	public String cheapestPaint(double roomSize) {
+		paints.stream().forEach(i -> i.setRoomCost(
+								((int) (roomSize / i.getAreaPerContainer()) + 1)
+								* i.getCost()));
+		
+		return paints.stream().min(Comparator.comparing(i -> i.getRoomCost())).toString();
+	}
+
+	/*public Paint leastWaste(double roomSize) {
+
+	}*/
+}

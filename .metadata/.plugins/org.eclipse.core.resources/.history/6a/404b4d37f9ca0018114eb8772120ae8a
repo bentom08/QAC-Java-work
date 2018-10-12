@@ -1,0 +1,17 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println(intArray());
+	}
+	
+	public static int[] intArray() {
+		int[] intArray = new int[100];
+		
+		for(int i = 1; i <= 100; i++) {
+			intArray[i-1] = i;
+		}
+		
+		return intArray;
+	}
+}

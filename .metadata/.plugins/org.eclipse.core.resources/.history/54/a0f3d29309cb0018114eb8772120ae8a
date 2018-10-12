@@ -1,0 +1,19 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println(playBlackjack(6, 6));
+	}
+	
+	public static int playBlackjack(int a, int b) {
+		if (a > 21 && b > 21) {
+			return 0;
+		}
+		
+		if (21 - a > 21 - b) {
+			return b;
+		} else {
+			return a;
+		}
+	}
+}

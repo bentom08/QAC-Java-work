@@ -1,0 +1,15 @@
+package com.qa.PaintWizard;
+
+import java.util.Arrays;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Paint CheapoMax = new Paint(10, 19.99, 21);
+		Paint ThatOneWithTheDog = new Paint(12, 34.38, 40);
+		Paint AverageJoes = new Paint(11, 17.99, 16);
+		Paint DuluxourousPaints = new Paint(22, 25.00, 10);
+		
+		List<Paints> paints = Arrays.asList(CheapoMax, ThatOneWithTheDog, AverageJoes, DuluxourousPaints);
+	}
+}

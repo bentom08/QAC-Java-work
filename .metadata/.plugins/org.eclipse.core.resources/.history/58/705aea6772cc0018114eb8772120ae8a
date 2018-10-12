@@ -1,0 +1,15 @@
+package com.qa.GarageClass;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Vehicle myCar = new Car(110, "KR06 KFJ", "Red", 4, true);
+		Vehicle myMotorcycle = new Motorcycle(100, "KI56 LSW", "Blue", false);
+		Vehicle mySled = new Sled(45, "IG09 HWU", "Green", 2);
+		
+		System.out.println(garage);
+	}
+}

@@ -1,0 +1,36 @@
+package com.qa.Goldilocks;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Table {
+	
+	private List<List<Seat>> myTable;
+	private int weight;
+	private int temp;
+	
+	public Table(int weight, int temp) {
+		myTable = new ArrayList<List<Seat>>();
+		this.weight = weight;
+		this.temp = temp;
+	}
+	
+	public void whichSeats() {
+		System.out.print("The Correct seats are: ");
+		
+		myTable.stream().filter(i -> ((Porridge) i).getTemp() <= this.temp)
+						.filter(i -> ((Chair) i).getWeight() >= this.weight)
+						.filter(i -> ((Luminosity) i).getLight() >= 70)
+						.forEach(i -> System.out.print(((Seat) i).getSeatNo() + ", "));
+	}
+
+	
+	public void addSeat(int weight, int temp, int light) {
+		myTable.add(null);
+		Porridge myPorridge = new Porridge(temp);
+		myTable.get(myPorridge.getSeatNo()-1).add(myPorridge);
+		myTable.get(myPorridge.getSeatNo()-1).add(new Luminosity(light));
+		myTable.get(myPorridge.getSeatNo()-1).add(new Chair(weight));
+	}
+}

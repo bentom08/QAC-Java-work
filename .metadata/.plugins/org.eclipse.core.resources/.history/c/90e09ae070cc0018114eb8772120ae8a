@@ -1,0 +1,15 @@
+package com.qa.GarageClass;
+
+public class Car extends Vehicle {
+
+	private int numberOfSeatbelts;
+	private boolean retractableRoof;
+	
+	public Car(int topSpeed, String numberPlate, String colour, int numberOfSeatbelts, boolean retractableRoof) {
+		this.topSpeed = topSpeed;
+		this.numberPlate = numberPlate;
+		this.colour = colour;
+		this.numberOfSeatbelts = numberOfSeatbelts;
+		this.retractableRoof = retractableRoof;
+	}
+}

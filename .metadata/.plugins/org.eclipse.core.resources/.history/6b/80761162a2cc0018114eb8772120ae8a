@@ -1,0 +1,20 @@
+package com.qa.PaintWizard;
+
+import java.util.List;
+import java.util.Arrays;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Paint CheapoMax = new Paint("CheapoMax", 10, 19.99, 21);
+		Paint ThatOneWithTheDog = new Paint("ThatOneWithTheDog", 12, 34.38, 40);
+		Paint AverageJoes = new Paint("AverageJoes", 11, 17.99, 16);
+		Paint DuluxourousPaints = new Paint("DuluxourousPaints", 22, 25.00, 10);
+		
+		List<Paint> paints = Arrays.asList(CheapoMax, ThatOneWithTheDog, AverageJoes, DuluxourousPaints);
+		
+		PaintWizard myWiz = new PaintWizard(paints);
+		
+		System.out.println(myWiz.cheapestPaint(219));
+	}
+}

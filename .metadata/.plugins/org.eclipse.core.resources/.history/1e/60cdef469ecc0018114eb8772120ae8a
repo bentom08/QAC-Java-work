@@ -1,0 +1,43 @@
+package com.qa.PaintWizard;
+
+public class Paint {
+
+	private String name;
+	private double areaPerLitre;
+	private double cost;
+	private double containerSize;
+	private double areaPerContainer;
+	private double roomCost;
+	
+	public Paint(String name, double areaPerLitre, double cost, double containerSize) {
+		this.name = name;
+		this.areaPerLitre = areaPerLitre;
+		this.cost = cost;
+		this.containerSize = containerSize;
+		this.areaPerContainer = areaPerLitre*containerSize;
+	}
+	
+	public double getAreaPerLitre() {
+		return this.areaPerLitre;
+	}
+	
+	public double getCost() {
+		return this.cost;
+	}
+	
+	public double container() {
+		return this.containerSize;
+	}
+	
+	public double getAreaPerContainer() {
+		return this.areaPerContainer;
+	}
+	
+	public void setRoomCost(double roomCost) {
+		this.roomCost = roomCost;
+	}
+	
+	public String toString() {
+		return name;
+	}
+}

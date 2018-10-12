@@ -1,0 +1,15 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		System.out.println(numbersAndBoolean(5, 4, true));
+	}
+	
+	public int numbersAndBoolean(int a, int b, boolean bool) {
+		if (bool) {
+			return a+b;
+		} else {
+			return a*b;
+		}
+	}
+}

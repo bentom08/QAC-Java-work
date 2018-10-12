@@ -1,0 +1,12 @@
+package com.qa.GarageClass;
+
+import java.util.List;
+
+public class Garage {
+
+	List<Vehicle> myGarage;
+	
+	public Garage(List<Vehicle> myGarage) {
+		this.myGarage = myGarage;
+	}
+}

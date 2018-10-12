@@ -1,0 +1,12 @@
+package com.qa.PaintWizard;
+
+import java.util.List;
+
+public class PaintWizard {
+
+	List<Paint> paints;
+	
+	public PaintWizard(List<Paint> paints) {
+		this.paints = paints;
+	}
+}

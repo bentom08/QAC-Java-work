@@ -1,0 +1,14 @@
+package com.qa.Goldilocks;
+
+public class Chair{
+	private int weight;
+
+	public int getWeight() {
+		return weight;
+	}
+	
+	public Chair(int w1) {
+		this.weight = w1;
+	}
+	
+}

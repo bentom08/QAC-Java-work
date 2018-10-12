@@ -1,0 +1,35 @@
+package com.qa.StringManipulation;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		String myString = "Joe is very tired";
+		countWordsArray(myString);
+	}
+	
+	public static void countWords(String s) {
+		int word = 0;
+		int numberOfWords = 0;
+		for (int i = 0; i < s.length(); i++) {
+			if (s.substring(i, i+1).equals(" ") || i == s.length() - 1) {
+				System.out.println(s.substring(word, i));
+				word = i+1;
+				numberOfWords++;
+			}
+		}
+		
+		System.out.println(numberOfWords);
+	}
+	
+	public static void countWordsArray(String s) {
+		String[] myArray = s.split(" ");
+				
+		for (int i = 0; i < s.length()-1; i++) {
+			System.out.println(myArray[i]);
+		}
+	}
+}

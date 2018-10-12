@@ -1,0 +1,15 @@
+package com.qa.Goldilocks;
+
+public class Luminosity extends Seat {
+	private int light;
+	
+	public Luminosity(int l1) {
+		this.light = l1;
+	}
+	
+	public int getLight() {
+		return light;
+	}
+		
+		
+}

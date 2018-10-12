@@ -1,0 +1,12 @@
+
+public class Runner {
+
+	public static void main(String[] args) {
+		reverse("Hello");
+	}
+	
+	public static String reverse(String myString) {
+		String[] myArray = myString.split("");
+		
+	}
+}

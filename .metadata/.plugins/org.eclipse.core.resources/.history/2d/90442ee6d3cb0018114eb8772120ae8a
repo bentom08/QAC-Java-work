@@ -1,0 +1,8 @@
+package com.qa.CalaculatorLambdas;
+
+public interface MathOperation {
+
+	public int operation(int a, int b);
+	
+	public double operation(double a, double b);
+}

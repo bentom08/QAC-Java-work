@@ -1,0 +1,25 @@
+
+public class Results {
+
+	private int physics;
+	private int biology;
+	private int chemistry;
+	private int total;
+	private double percentage;
+	
+	public Results(int physics, int biology, int chemistry) {
+		this.physics = physics;
+		this.biology = biology;
+		this.chemistry = chemistry;
+		this.total = physics + biology + chemistry;
+		this.percentage = (total*100)/450;
+	}
+	
+	public printResults() {
+		System.out.println("Physics: " + physics);
+		System.out.println("Biology: " + biology);
+		System.out.println("Chemistry: " + chemistry);
+		
+		System.out.println();
+	}
+}

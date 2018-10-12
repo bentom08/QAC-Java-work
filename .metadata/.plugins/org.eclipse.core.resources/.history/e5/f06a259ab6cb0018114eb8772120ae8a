@@ -1,0 +1,12 @@
+package com.qa.coins;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		change(4.58, 20);
+	}
+	
+	public static void change(double cost, double amount) {
+		System.out.println("The cost is £" + cost + " and the customer pays £" + amount + " therefore the change is:");
+	}
+}

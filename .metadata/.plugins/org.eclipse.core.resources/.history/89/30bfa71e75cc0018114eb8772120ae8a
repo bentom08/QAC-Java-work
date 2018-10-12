@@ -1,0 +1,24 @@
+package com.qa.GarageClass;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Garage {
+
+	List<Vehicle> myGarage;
+	List<Integer> myBills;
+	
+	public Garage() {
+		this.myGarage = new ArrayList<>();
+		this.myBills = new ArrayList<>();
+	}
+	
+	public void store(Vehicle myVehicle) {
+		myGarage.add(myVehicle);
+		myBills.add(0);
+	}
+	
+	public List<Integer> printBill() {
+		return myGarage.stream().map(i -> i.getTopSpeed()*2);
+	}
+}

@@ -1,0 +1,19 @@
+package com.qa.GarageClass;
+
+public class Motorcycle extends Vehicle {
+
+	private boolean hasSideCar;
+	
+	public Motorcycle(int topSpeed, String numberPlate, String colour, boolean hasSideCar) {
+		super(topSpeed, numberPlate, colour);
+		this.setHasSideCar(hasSideCar);
+	}
+
+	public boolean isHasSideCar() {
+		return hasSideCar;
+	}
+
+	public void setHasSideCar(boolean hasSideCar) {
+		this.hasSideCar = hasSideCar;
+	}
+}
