@@ -9,7 +9,7 @@ public class Runner {
 		myTable.addSeat(130, 60, 100);
 		myTable.addSeat(90, 60, 5);
 		myTable.addSeat(150, 85, 5);
-		myTable.addSeat(120, 70, 5);
+		myTable.addSeat(120, 70, 70);
 		myTable.addSeat(200, 200, 5);
 		myTable.addSeat(110, 100, 5);
 		

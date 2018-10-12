@@ -1,22 +1,14 @@
 package com.qa.Goldilocks;
 
 public class Luminosity {
+	
 	private int light;
-	private static int ID = 1;
-	private int seatNo;
 	
 	public Luminosity(int l1) {
 		this.light = l1;
-		this.seatNo = ID;
-		ID++;
 	}
 	
 	public int getLight() {
-		return light;
-	}
-	
-	public int getSeatNo() {
-		return this.seatNo;
-	}
-		
+		return this.light;
+	}	
 }

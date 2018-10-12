@@ -2,20 +2,15 @@ package com.qa.Goldilocks;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Table {
 	
-	private List<Porridge> porridgeList;
-	private List<Luminosity> lightList;
-	private List<Chair> chairList;
+	private List<Seat> myTable;
 	private int weight;
 	private int temp;
 	
 	public Table(int weight, int temp) {
-		porridgeList = new ArrayList<>();
-		lightList = new ArrayList<>();
-		chairList = new ArrayList<>();
+		myTable = new ArrayList<>();
 		this.weight = weight;
 		this.temp = temp;
 	}
@@ -23,17 +18,13 @@ public class Table {
 	public void whichSeats() {
 		System.out.print("The Correct seats are: ");
 		
-		List<Integer> porridgeNumbers=porridgeList.stream().filter(i -> i.getTemp() <= this.temp).collect(Collectors.toList());
-		List<Integer> lightNumbers=lightList.stream().filter(i -> i.getLight() >= 70).collect(Collectors.toList());
-		List<Integer> chairNumbers=chairList.stream().filter(i -> i.getWeight() <= this.weight).collect(Collectors.toList());
-
-	
+		myTable.stream().filter(i -> i.getLight() >= 70)
+						.filter(i -> i.getWeight() >= weight)
+						.filter(i -> i.getTemp() <= temp)
+						.forEach(i -> System.out.print(i.getSeatNo() + ", "));
 	}
-
 	
-	public void addSeat(int temp, int weight, int light) {
-		porridgeList.add(new Porridge(temp));
-		lightList.add(new Luminosity(light));
-		chairList.add(new Chair(weight));
+	public void addSeat(int weight, int temp, int light) {
+		myTable.add(new Seat(new Chair(weight), new Porridge(temp), new Luminosity(light)));
 	}
 }
