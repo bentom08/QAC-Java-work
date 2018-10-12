@@ -4042,3 +4042,109 @@ org.eclipse.core.runtime.CoreException: Launch configuration Runner (7) referenc
 2018-10-12 12:57:47,698 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
 2018-10-12 12:59:49,304 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-12 12:59:49,312 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 12:59:49,318 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 12:59:49,322 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 14:50:20,231 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:50:20,232 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 14:50:20,233 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:50:20,241 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 14:50:44,991 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:50:45,000 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 14:50:45,005 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:50:45,009 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 14:51:06,485 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:51:06,485 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 14:51:06,486 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:51:06,492 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 14:52:05,197 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:52:05,204 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 14:52:05,212 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:52:05,219 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 14:52:17,257 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:52:17,257 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 14:52:17,258 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:52:17,264 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 14:52:41,293 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:52:41,301 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 14:52:41,309 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 14:52:41,313 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:04:39,314 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:04:39,314 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:04:39,314 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:04:39,318 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:05:54,285 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:05:54,297 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:05:54,303 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:05:54,307 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:07:50,427 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:07:50,427 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:07:50,429 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:07:50,437 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:07:56,413 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:07:56,417 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:07:56,420 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:07:56,424 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:08:51,227 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:08:51,227 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:08:51,228 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:08:51,232 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:09:41,693 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:09:41,702 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:09:41,708 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:09:41,714 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:43:28,027 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:43:28,027 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:43:28,028 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:43:28,035 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:46:43,921 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:46:43,928 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:46:43,935 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:46:43,942 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:47:05,681 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:47:05,681 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:47:05,682 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:47:05,689 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:48:46,656 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:48:46,662 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:48:46,669 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:48:46,675 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:50:43,091 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:50:43,091 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:50:43,092 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:50:43,099 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:51:00,682 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:51:00,691 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:51:00,700 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:51:00,708 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:51:45,202 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:51:45,202 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:51:45,203 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:51:45,211 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:53:11,170 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:53:11,177 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:53:11,183 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:53:11,189 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:56:47,313 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:56:47,313 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:56:47,314 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:56:47,321 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 15:59:25,873 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:59:25,880 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 15:59:25,887 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 15:59:25,893 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 16:04:43,065 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:04:43,065 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 16:04:43,066 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:04:43,070 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 16:08:35,751 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:08:35,759 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 16:08:35,764 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:08:35,768 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 16:09:28,510 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:09:28,510 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 16:09:28,511 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:09:28,517 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources
+2018-10-12 16:09:33,197 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:09:33,205 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\main\resources
+2018-10-12 16:09:33,212 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-12 16:09:33,216 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\QAC-Java-work\InfiniteSwampGame\src\test\resources

@@ -10,8 +10,16 @@ public class Swamp {
 	
 	public Swamp() {
 		Random r = new Random();
-		double x = 10 * r.nextDouble() - 5;
-		double y = 10 * r.nextDouble() - 5;
+		
+		double x = 0;
+		while (x < 1 && x > -1) {
+			x = 10 * r.nextDouble() - 5;
+		}
+		
+		double y = 0;
+		while (y < 1 && y > -1) {
+			y = 10 * r.nextDouble() - 5;
+		}
 		
 		this.player = new Player();
 		this.treasure = new Treasure(x, y);
