@@ -38,6 +38,15 @@ public class Swamp {
 		return this.playerToTreasure;
 	}
 	
+	public double move(double direction) {
+		player.setPlayerX(player.getPlayerX() + Math.sin(Math.toRadians(direction)));
+		player.setPlayerY(player.getPlayerY() + Math.cos(Math.toRadians(direction)));
+		
+		updatePlayerToTreasure();
+		
+		return this.playerToTreasure;
+	}
+	
 	public void updatePlayerToTreasure() {
 		this.playerToTreasure = Math.sqrt(Math.pow(treasure.getX() - player.getPlayerX(), 2) + Math.pow(treasure.getY() - player.getPlayerY(), 2));
 	}
