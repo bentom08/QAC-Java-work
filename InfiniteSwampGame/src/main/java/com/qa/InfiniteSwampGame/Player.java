@@ -7,7 +7,7 @@ public class Player {
 
 	private double playerX = 0;
 	private double playerY = 0;
-	private List<String> inventory = new ArrayList<>();
+	
 
 	public double getPlayerX() {
 		return playerX;
@@ -23,9 +23,5 @@ public class Player {
 	
 	public void setPlayerY(double playerY) {
 		this.playerY = playerY;
-	}
-	
-	public void addInv(String item) {
-		inventory.add(item);
 	}
 }
