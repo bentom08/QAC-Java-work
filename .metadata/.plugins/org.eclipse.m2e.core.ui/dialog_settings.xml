@@ -59,6 +59,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.InfiniteSwampGame"/>
 			<item value="com.qa.PaintWizard"/>
 			<item value="com.qa.GarageClass"/>
 			<item value="com.qa.PersonClass"/>
@@ -76,6 +77,7 @@
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="InfiniteSwampGame"/>
 			<item value="PaintWizard"/>
 			<item value="GarageClass"/>
 			<item value="PersonClass"/>
