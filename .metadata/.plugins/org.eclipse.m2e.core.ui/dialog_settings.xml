@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Admin\eclipse-workspace\QAC-Java-work\Library\src\main\java\com\qa\Library\Runner.java"/>
 			<item value="C:\Users\Admin\eclipse-workspace\CalaculatorLambdas\src\main\java\com\qa\CalaculatorLambdas\Runner.java"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Results\src\Runner.java"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Taxes\src\Runner.java"/>
@@ -59,6 +60,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.flyweight"/>
 			<item value="com.qa.InfiniteSwampGame"/>
 			<item value="com.qa.PaintWizard"/>
 			<item value="com.qa.GarageClass"/>
@@ -77,6 +79,7 @@
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="flyweight"/>
 			<item value="InfiniteSwampGame"/>
 			<item value="PaintWizard"/>
 			<item value="GarageClass"/>

@@ -3,6 +3,8 @@ package com.qa.InfiniteSwampGame;
 import java.util.Scanner;
 
 public class Runner {
+	
+	private static RPGPlayer player;
 
 	public static void main(String[] args) {
 		System.out.println("Grey foggy clouds float oppressively close to you, reflected in the murky grey water which reaches up your shins.\n"
@@ -28,9 +30,9 @@ public class Runner {
 						+  "As you step over the threshold the light blinds your eyes and you instinctively reach up to cover them.\n"
 						+  "As your eyes start adjusting to the light you begin to make out shapes in the distance.");
 		
-		RPGPlayer player = new RPGPlayer(5);
+		player = new RPGPlayer(5);
 		
-		directionDecision(player);
+		directionDecision();
 		
 	}
 	
@@ -101,7 +103,7 @@ public class Runner {
 		}
 	}
 	
-	public static void directionDecision(RPGPlayer player) {
+	public static void directionDecision() {
 		System.out.println("You can see something that looks like a church over to your left, a mountain over to the right, with a cave in its side, and an\n"
 						+  "orchard straight in front of you. Your stomach rumbles.\n\n"
 						+  "Enter L/R/F to go left, right or forward.");
@@ -115,17 +117,17 @@ public class Runner {
 			if (decision.equals("l") || decision.equals("L")) {
 				System.out.println("You begin walking towards the church");
 				player.step();
-				church(player);
+				church();
 				break;
 			} else if (decision.equals("r") || decision.equals("R")) {
 				System.out.println("You begin walking towards the cave");
 				player.step();
-				cave(player);
+				cave();
 				break;
 			} else if (decision.equals("f") || decision.equals("F")){
 				System.out.println("You begin walking towards the orchard");
 				player.step();
-				orchard(player);
+				orchard();
 				break;
 			} else {
 				System.out.println("Please enter either L/F/R");
@@ -133,15 +135,15 @@ public class Runner {
 		}
 	}
 	
-	public static void church(RPGPlayer player) {
+	public static void church() {
 		
 	}
 	
-	public static void orchard(RPGPlayer player) {
+	public static void orchard() {
 		
 	}
 	
-	public static void cave(RPGPlayer player) {
+	public static void cave() {
 		System.out.println("As you approach the cave entrance you start to hear strange noises coming from within. Some sort of snarling\n"
 						+  "that sounds like it could be coming from a vicious animal\n\n"
 						+  "Do you want to turn back, look around or continue into the cave? (Back/Look/Continue)");
@@ -156,9 +158,9 @@ public class Runner {
 				System.out.println("You decide to head back to the place that you stepped out of the door. Maybe you can find something to deal with whatever is\n"
 								+  "in the cave.");
 				player.step();
-				directionDecision(player);
+				directionDecision();
 			} else if (decision.equals("Look") || decision.equals("look") || decision.equals("L") || decision.equals("l")) {
-				System.out.println("You look at the area around the cave and find some sharp rocks that look like they could deal some damage"
+				System.out.println("You look at the area around the cave and find some sharp rocks that look like they could deal some damage\n"
 								+  "Pick one up? (Y/N)");
 				
 				while (true) {
@@ -166,11 +168,11 @@ public class Runner {
 					if (rockDecision.equals("Y") || rockDecision.equals("y")) {
 						player.addInv("rock");
 						player.step();
-						cave(player);
+						cave();
 					} else if (rockDecision.equals("N") || rockDecision.equals("n")) {
 						System.out.println("You aren't stupid. That rock looks dangerous! It could hurt someone! You leave it alone and move back to the cave entrance.");
 						player.step();
-						cave(player);
+						cave();
 					} else {
 						System.out.println("Please enter a valid choice");
 					}
@@ -182,7 +184,3 @@ public class Runner {
 	}
 	
 }
-
-
-
-
