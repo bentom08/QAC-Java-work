@@ -178,9 +178,17 @@ public class Runner {
 					}
 				}
 			} else if (decision.equals("Continue") || decision.equals("continue") || decision.equals("C") || decision.equals("c")) {
-				
+				player.step();
+				enterCave();
+			} else {
+				System.out.println("Please enter a valid option.");
 			}
 		}
+	}
+	
+	public static void enterCave() {
+		System.out.println("As you step into the cave the snarling gets closer and closer. You see a huge shadow on the wall, twice your size. You take a step\n"
+						+  "");
 	}
 	
 }
