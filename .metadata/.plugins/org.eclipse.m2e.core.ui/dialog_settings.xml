@@ -60,6 +60,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.Hospital"/>
 			<item value="com.qa.flyweight"/>
 			<item value="com.qa.InfiniteSwampGame"/>
 			<item value="com.qa.PaintWizard"/>
@@ -79,6 +80,7 @@
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="Hospital"/>
 			<item value="flyweight"/>
 			<item value="InfiniteSwampGame"/>
 			<item value="PaintWizard"/>

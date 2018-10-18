@@ -24,8 +24,8 @@ public class HospitalTest {
 		gareth = new Doctor("Gareth", 23, 23500, "Undecided", "Intern");
 		vinul = new Doctor("Vinul", 23, 35000, "Neurology", "Junior Neurosurgeon");
 		harrison = new Doctor("Harrison", 21, 90000, "Dermatology", "Head of Dermatology");
-		ben = new Patient("Ben", 25, new TreatmentPlan(), "18/10/2018");
-		joe = new Patient("Joesph", 24, new TreatmentPlan(), "19/10/2018");
+		ben = new Patient("Ben", 25, new TreatmentPlan(), "18/10/2018", harrison);
+		joe = new Patient("Joesph", 24, new TreatmentPlan(), "19/10/2018", vinul);
 	}
 	
 	@Test
@@ -68,6 +68,30 @@ public class HospitalTest {
 	
 	@Test
 	public void testPromote() {
+		gareth.promote(30000, "Resident");
+		vinul.promote(50000, "Neurosurgeon");
 		
+		assertEquals(50000, vinul.getSalary());
+		assertEquals("Resident", gareth.getJobTitle());
+		assertEquals(30000, gareth.getSalary());
+		assertEquals("Neurosurgeon", vinul.getJobTitle());
+	}
+	
+	@Test
+	public void testRecordTreatment() {
+		ben.giveDiagnosis("Tonsillitis");
+		ben.giveTreatment("Penicillin");
+		
+		assertEquals("Penicillin", ben.getTreatmentPlan().getCurrentTreatment());
+		
+		ben.giveTreatment("Tonsilectomy");
+		
+		assertEquals("Penicillin", ben.getTreatmentPlan().getPreviousTreatments().get(0));
+		
+		ben.giveTreatment("Bedrest");
+		
+		assertEquals(2, ben.getTreatmentPlan().getPreviousTreatments().size());
+		
+		System.out.println(ben);
 	}
 }

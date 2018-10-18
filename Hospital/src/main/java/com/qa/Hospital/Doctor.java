@@ -12,4 +12,9 @@ public class Doctor extends Employee {
 	public String getSpecialization() {
 		return specialization;
 	}
+	
+	public void promote(int salary, String jobTitle) {
+		this.setSalary(salary);
+		this.setJobTitle(jobTitle);
+	}
 }
