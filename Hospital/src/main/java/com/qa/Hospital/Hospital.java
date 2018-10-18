@@ -14,4 +14,13 @@ public class Hospital {
 		patients = new ArrayList<>();
 		teams = new ArrayList<>();
 	}
+	
+	public List<Patient> admitPatient(Patient patient) {
+		patients.add(patient);
+		return patients;
+	}
+	
+	public DoctorTeam createTeam(List<Doctor> doctorTeam, String name) {
+		return new DoctorTeam(doctorTeam, name);
+	}
 }
