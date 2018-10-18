@@ -16,4 +16,8 @@ public class Map extends Item {
 	public void setScaleFactor(int scaleFactor) {
 		this.scaleFactor = scaleFactor;
 	}
+	
+	public String toString() {
+		return getItemID() + ", " + getName() + ", " + scaleFactor;
+	}
 }

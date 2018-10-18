@@ -26,4 +26,8 @@ public class Newspaper extends Item {
 	public void setDate(String date) {
 		this.date = date;
 	}
+	
+	public String toString() {
+		return getItemID() + ", " + getName() + ", " + type + ", " + date;
+	}
 }

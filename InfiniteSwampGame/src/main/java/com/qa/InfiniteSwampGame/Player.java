@@ -1,8 +1,5 @@
 package com.qa.InfiniteSwampGame;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Player {
 
 	private double playerX = 0;

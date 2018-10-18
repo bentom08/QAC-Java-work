@@ -1,5 +1,9 @@
 package com.qa.Library;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -88,5 +92,27 @@ public class Library {
 	public void checkIn(Person person, Item item) {
 		item.checkIn();
 		person.setCheckedOut(person.getCheckedOut().stream().filter(i -> i.getItemID() != item.getItemID()).collect(Collectors.toList()));
+	}
+	
+	public boolean writeItemsToFile(String filename) throws IOException {
+		BufferedWriter filewriter = new BufferedWriter(new FileWriter(filename));
+		
+		for (Item i: libraryItems) {
+			System.out.println(i.toString());
+			filewriter.write(i.toString());
+			filewriter.newLine();
+		}
+		
+		filewriter.close();
+		
+		File f = new File(filename);
+		
+		System.out.println(f.getAbsolutePath());
+		
+		if (f.exists() && !f.isDirectory()) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }

@@ -26,4 +26,8 @@ public class Book extends Item {
 	public void setGenre(String genre) {
 		this.genre = genre;
 	}
+	
+	public String toString() {
+		return getItemID() + ", " + getName() + ", " + author + ", " + genre;
+	}
 }

@@ -32,11 +32,15 @@ public class RPGPlayer extends Player{
 	}
 	
 	public void reduceHP() {
-		this.HP -= 1;
+		HP--;
+		
+		if (HP == 0) {
+			System.exit(0);
+		}
 	}
 	
 	public void increaseHP() {
-		this.HP += 1;
+		HP++;
 	}
 	
 	public void eat(int food) {
@@ -48,7 +52,7 @@ public class RPGPlayer extends Player{
 	}
 	
 	public void step() {
-		hunger += 1;
+		hunger++;
 		
 		if (hunger == 5) {
 			System.out.println("\n" + "You are becoming more hungry by the second. You should find food soon, or you won't have the energy to continue.");

@@ -2,6 +2,7 @@ package com.qa.Library;
 
 import static org.junit.Assert.*;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -291,5 +292,14 @@ public class LibraryTest {
 		
 		assertEquals("The Sun", joe.getCheckedOut().get(0).getName());
 		
+	}
+	
+	@Test
+	public void testFileWrite() throws IOException {
+		myLibrary.add(myBook);
+		myLibrary.add(myNP);
+		myLibrary.add(myMap);
+		
+		assertEquals(true, myLibrary.writeItemsToFile("items.txt"));
 	}
 }
