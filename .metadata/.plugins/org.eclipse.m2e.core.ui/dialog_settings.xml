@@ -60,6 +60,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.Battleships"/>
 			<item value="com.qa.Hospital"/>
 			<item value="com.qa.flyweight"/>
 			<item value="com.qa.InfiniteSwampGame"/>
@@ -74,12 +75,12 @@
 			<item value="com.qa.coins"/>
 			<item value="com.qa.Streams"/>
 			<item value="com.qa.ArrayLists"/>
-			<item value="com.qa.deleteMe"/>
 		</list>
 		<list key="groupId">
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="Battleships"/>
 			<item value="Hospital"/>
 			<item value="flyweight"/>
 			<item value="InfiniteSwampGame"/>
@@ -94,7 +95,6 @@
 			<item value="coins"/>
 			<item value="Streams"/>
 			<item value="ArrayLists"/>
-			<item value="deleteMe"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
