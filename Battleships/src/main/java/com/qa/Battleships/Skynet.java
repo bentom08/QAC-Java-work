@@ -22,6 +22,15 @@ public class Skynet {
 	}
 	
 	private int[] T800_Difficulty(Grid grid) {
+		
+		return getRandomSquare(grid);
+	}
+	
+	private void T1000_Difficulty(Grid grid) {
+		
+	}
+	
+	private int[] getRandomSquare(Grid grid) {
 		r = new Random();
 		int[] coords = {r.nextInt(6), r.nextInt(6)};
 		
@@ -30,9 +39,5 @@ public class Skynet {
 			coords[1] = r.nextInt(6);
 		}
 		return coords;
-	}
-	
-	private void T1000_Difficulty(Grid grid) {
-		
 	}
 }
