@@ -57,10 +57,10 @@ public class Runner {
 				gotHit = AIturn(myGrid, difficulty);
 				myGrid.printGridHits();
 				if (myGrid.allSunk()) {
-					System.out.println("\n\nAI wins!");
+					System.out.println("\n\nThe AI wins. John Conner is dead. Skynet has become self aware.");
 					System.exit(0);
 				}
-				TimeUnit.SECONDS.sleep(3);
+				TimeUnit.SECONDS.sleep(4);
 			}
 		}
 	}

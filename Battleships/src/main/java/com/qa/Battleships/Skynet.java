@@ -22,7 +22,6 @@ public class Skynet {
 	}
 	
 	private int[] T800_Difficulty(Grid grid) {
-		
 		return getRandomSquare(grid);
 	}
 	
