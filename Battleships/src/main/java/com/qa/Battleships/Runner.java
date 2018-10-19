@@ -113,15 +113,8 @@ public class Runner {
 	}
 	
 	public static boolean AIturn(Grid grid, Skynet difficulty) {
-		int x;
-		int y;
-		while (true) {
-			x = difficulty.skynetOnline()[0];
-			y = difficulty.skynetOnline()[1];
-			if (!grid.getGrid()[x][y].getIsHit()) {
-				break;
-			}
-		}
+		int x = difficulty.skynetOnline(grid)[0];
+		int y = difficulty.skynetOnline(grid)[1];
 		
 		grid.getGrid()[x][y].setIsHit(true);
 		if (grid.getGrid()[x][y].getHasShip()) {
