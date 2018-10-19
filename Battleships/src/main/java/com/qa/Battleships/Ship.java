@@ -12,6 +12,11 @@ public class Ship {
 		this.shipType = shipType;
 	}
 	
+	public Ship(Ship copy) {
+		this.length = copy.length;
+		this.shipType = copy.shipType;
+	}
+	
 	public int getShipLength() {
 		return length;
 	}
@@ -32,4 +37,4 @@ public class Ship {
 	public boolean getSunk() {
 		return sunk;
 	}
-}
+} 
