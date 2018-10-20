@@ -8,8 +8,8 @@ public class Runner {
 
 	public static void main(String[] args) throws InterruptedException {
 		Grid grid = new Grid(6, 6);
-		List<Ship> ships = Arrays.asList(new Ship(2, "Patrol Boat"), new Ship(3, "Submarine"));
-		Skynet difficulty = new Skynet("T-800");
+		List<Ship> ships = Arrays.asList(new Ship(2, "Patrol Boat"), new Ship(3, "Submarine"), new Ship(4, "Destroyer"));
+		Skynet difficulty = new Skynet("T-1000");
 		
 		
 		onePlayer(grid, ships, difficulty);
@@ -113,8 +113,9 @@ public class Runner {
 	}
 	
 	public static boolean AIturn(Grid grid, Skynet difficulty) {
-		int x = difficulty.skynetOnline(grid)[0];
-		int y = difficulty.skynetOnline(grid)[1];
+		int[] xy = difficulty.skynetOnline(grid);
+		int x = xy[0];
+		int y = xy[1];
 		
 		grid.getGrid()[x][y].setIsHit(true);
 		if (grid.getGrid()[x][y].getHasShip()) {

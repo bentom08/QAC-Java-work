@@ -45,6 +45,7 @@ public class Grid {
 		
 		while (!placed) {
 			placed = AIDirection(ship, x, y);
+			System.out.println(1);
 		}
 		
 		ships.add(ship);
