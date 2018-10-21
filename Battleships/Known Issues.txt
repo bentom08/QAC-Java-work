@@ -1,3 +1,0 @@
-Issue: When trying to hit overlapping ships an error will occur if a string of hits has been achieved, bookmarked by misses or boundaries, but no ship has been sunk.
-Cause: The AI tries to get strings of hits, and will get confused and throw an error if it doesn't sink a ship by doing this, as it will have nowhere left to go
-Possible Solutions: Add a check to go back to hitting squares adjacent to hit squares if the conditions in the "issue" section are met

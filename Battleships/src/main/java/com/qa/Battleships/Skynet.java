@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class Skynet {
 
 	private String difficulty;
-	private Random r;
+	private Random r = new Random();
 	private int[] previousHit = {-1, -1};
 	private int direction;
 	
@@ -33,12 +33,11 @@ public class Skynet {
 	
 	private int[] T1000_Difficulty(Grid grid) {
 		List<int[]> hitSquares = getUnsunkShipSquares(grid);
-		r = new Random();
 		int[] coords = new int[2];
 		
 		if (hitSquares.size() == 0) {
 			coords = getRandomSquare(grid);
-			previousHit[0] = -2;
+			previousHit[0] = -1;
 		} else if (previousHit[0] != -1) {
 			switch (direction) {
 				case 0:
@@ -59,37 +58,47 @@ public class Skynet {
 					break;
 			}
 			
-			boolean reverse;
-			boolean reverseNow = false;
+			boolean reverse = false;
+			boolean reverseNow;
 			
 			try {
 				reverse = !grid.getGrid()[coords[0]][coords[1]].getHasShip();
 				reverseNow = grid.getGrid()[coords[0]][coords[1]].getIsHit();
 			} catch (ArrayIndexOutOfBoundsException e) {
-				reverse = true;
 				reverseNow = true;
 			}
 			
-			int[] nextHit = previousHit;
-			previousHit = coords;
+			int[] nextHit = {previousHit[0], previousHit[1]};
+			previousHit[0] = coords[0];
+			previousHit[1] = coords[1];
 			
-			if (reverse) {
+			if (reverse || reverseNow) {
 				
-				while (grid.getGrid()[nextHit[0]][nextHit[1]].getIsHit()) {
-					switch (direction) {
-						case 0:
-							nextHit[0] -= 1;
-							break;
-						case 1:
-							nextHit[0] += 1;
-							break;
-						case 2:
-							nextHit[1] -= 1;
-							break;
-						case 3:
-							nextHit[1] += 1;
-							break;
+				try {
+					while (grid.getGrid()[nextHit[0]][nextHit[1]].getIsHit() && grid.getGrid()[nextHit[0]][nextHit[1]].getHasShip()) {
+						switch (direction) {
+							case 0:
+								nextHit[0] -= 1;
+								break;
+							case 1:
+								nextHit[0] += 1;
+								break;
+							case 2:
+								nextHit[1] -= 1;
+								break;
+							case 3:
+								nextHit[1] += 1;
+								break;
+						}
 					}
+				} catch (ArrayIndexOutOfBoundsException e) {
+					previousHit[0] = -1;
+					return getAdjacentSquare(grid, hitSquares, coords);
+				}
+				
+				if (grid.getGrid()[nextHit[0]][nextHit[1]].getIsHit()) {
+					previousHit[0] = -1;
+					return coords;
 				}
 				
 				if (reverseNow) {
@@ -125,54 +134,58 @@ public class Skynet {
 						break;
 				}
 			}
-			
 		} else {
-			
-			int i = 0;
-			
-			while (true) {
-				direction = r.nextInt(4);
-			
-				switch (direction) {
-					case 0:
-						coords[0] = hitSquares.get(i)[0] + 1;
-						coords[1] = hitSquares.get(i)[1];
-						break;
-					case 1:
-						coords[0] = hitSquares.get(i)[0] - 1;
-						coords[1] = hitSquares.get(i)[1];
-						break;
-					case 2:
-						coords[0] = hitSquares.get(i)[0];
-						coords[1] = hitSquares.get(i)[1] + 1;
-						break;
-					case 3:
-						coords[0] = hitSquares.get(i)[0];
-						coords[1] = hitSquares.get(i)[1] - 1;
-						break;
-				}
-			
-				if (coords[0] >= 0 && coords[1] >= 0 && coords[0] < grid.getGrid().length && coords[1] < grid.getGrid()[0].length && !grid.getGrid()[coords[0]][coords[1]].getIsHit()) {
-					break;
-				}
-				
-				List<Boolean> isHit = new ArrayList<>();
-				
-				try {isHit.add(grid.getGrid()[hitSquares.get(i)[0] + 1][hitSquares.get(i)[1]].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
-				try {isHit.add(grid.getGrid()[hitSquares.get(i)[0] - 1][hitSquares.get(i)[1]].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
-				try {isHit.add(grid.getGrid()[hitSquares.get(i)[0]][hitSquares.get(i)[1] + 1].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
-				try {isHit.add(grid.getGrid()[hitSquares.get(i)[0]][hitSquares.get(i)[1] - 1].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
-				
-				if (isHit.stream().filter(k -> k == false).collect(Collectors.toList()).size() == 0) {
-					i++;
-				}
-			}
-			if (grid.getGrid()[coords[0]][coords[1]].getHasShip()) {
-				previousHit[0] = coords[0];
-				previousHit[1] = coords[1];
-			}
+			coords = getAdjacentSquare(grid, hitSquares, coords);
 		}
 				
+		return coords;
+	}
+	
+	private int[] getAdjacentSquare(Grid grid, List<int[]> hitSquares, int[] coords) {
+		int i = 0;
+		
+		while (true) {
+			direction = r.nextInt(4);
+		
+			switch (direction) {
+				case 0:
+					coords[0] = hitSquares.get(i)[0] + 1;
+					coords[1] = hitSquares.get(i)[1];
+					break;
+				case 1:
+					coords[0] = hitSquares.get(i)[0] - 1;
+					coords[1] = hitSquares.get(i)[1];
+					break;
+				case 2:
+					coords[0] = hitSquares.get(i)[0];
+					coords[1] = hitSquares.get(i)[1] + 1;
+					break;
+				case 3:
+					coords[0] = hitSquares.get(i)[0];
+					coords[1] = hitSquares.get(i)[1] - 1;
+					break;
+			}
+		
+			if (coords[0] >= 0 && coords[1] >= 0 && coords[0] < grid.getGrid().length && coords[1] < grid.getGrid()[0].length && !grid.getGrid()[coords[0]][coords[1]].getIsHit()) {
+				break;
+			}
+			
+			List<Boolean> isHit = new ArrayList<>();
+			
+			try {isHit.add(grid.getGrid()[hitSquares.get(i)[0] + 1][hitSquares.get(i)[1]].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
+			try {isHit.add(grid.getGrid()[hitSquares.get(i)[0] - 1][hitSquares.get(i)[1]].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
+			try {isHit.add(grid.getGrid()[hitSquares.get(i)[0]][hitSquares.get(i)[1] + 1].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
+			try {isHit.add(grid.getGrid()[hitSquares.get(i)[0]][hitSquares.get(i)[1] - 1].getIsHit());} catch (ArrayIndexOutOfBoundsException e){}
+			
+			if (isHit.stream().filter(k -> k == false).collect(Collectors.toList()).size() == 0) {
+				i++;
+			}
+		}
+		if (grid.getGrid()[coords[0]][coords[1]].getHasShip()) {
+			previousHit[0] = coords[0];
+			previousHit[1] = coords[1];
+		}
+		
 		return coords;
 	}
 	
