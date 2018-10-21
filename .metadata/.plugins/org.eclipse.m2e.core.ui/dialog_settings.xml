@@ -2,10 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.qa"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Glicko"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -39,7 +41,6 @@
 			<item value="[artifactId]-[version]"/>
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardLocationPage">
@@ -60,41 +61,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.qa.Battleships"/>
-			<item value="com.qa.Hospital"/>
-			<item value="com.qa.flyweight"/>
-			<item value="com.qa.InfiniteSwampGame"/>
-			<item value="com.qa.PaintWizard"/>
-			<item value="com.qa.GarageClass"/>
-			<item value="com.qa.PersonClass"/>
-			<item value="com.qa.DelegateClass"/>
-			<item value="com.qa.StringManipulation"/>
-			<item value="com.qa.CalaculatorLambdas"/>
-			<item value="com.qa.CheckStringLambdas"/>
-			<item value="com.qa.HelloWorldLambdas"/>
-			<item value="com.qa.coins"/>
-			<item value="com.qa.Streams"/>
-			<item value="com.qa.ArrayLists"/>
 		</list>
 		<list key="groupId">
-			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
-			<item value="Battleships"/>
-			<item value="Hospital"/>
-			<item value="flyweight"/>
-			<item value="InfiniteSwampGame"/>
-			<item value="PaintWizard"/>
-			<item value="GarageClass"/>
-			<item value="PersonClass"/>
-			<item value="DelegateClass"/>
-			<item value="StringManipulation"/>
-			<item value="CalaculatorLambdas"/>
-			<item value="CheckStringLambdas"/>
-			<item value="HelloWorldLambdas"/>
-			<item value="coins"/>
-			<item value="Streams"/>
-			<item value="ArrayLists"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -102,7 +72,6 @@
 			<item value="[artifactId]-[version]"/>
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>

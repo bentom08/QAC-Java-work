@@ -38,14 +38,16 @@ public class Grid {
 	public void AIPlacement(Ship ship) {
 		r = new Random();
 		
-		int x = r.nextInt(6);
-		int y = r.nextInt(6);
+		int x;
+		int y;
 		
 		boolean placed = false;
 		
 		while (!placed) {
+			x = r.nextInt(grid.length);
+			y = r.nextInt(grid[0].length);
 			placed = AIDirection(ship, x, y);
-			System.out.println(1);
+			System.out.println(x + " " + y);
 		}
 		
 		ships.add(ship);

@@ -10,6 +10,8 @@ public class Skynet {
 
 	private String difficulty;
 	private Random r;
+	private int[] previousHit = {-1, -1};
+	private int direction;
 	
 	public Skynet(String difficulty) {
 		this.difficulty = difficulty;
@@ -36,25 +38,117 @@ public class Skynet {
 		
 		if (hitSquares.size() == 0) {
 			coords = getRandomSquare(grid);
+			previousHit[0] = -2;
+		} else if (previousHit[0] != -1) {
+			switch (direction) {
+				case 0:
+					coords[0] = previousHit[0] + 1;
+					coords[1] = previousHit[1];
+					break;
+				case 1:
+					coords[0] = previousHit[0] - 1;
+					coords[1] = previousHit[1];
+					break;
+				case 2:
+					coords[0] = previousHit[0];
+					coords[1] = previousHit[1] + 1;
+					break;
+				case 3:
+					coords[0] = previousHit[0];
+					coords[1] = previousHit[1] - 1;
+					break;
+			}
+			
+			boolean reverse;
+			boolean reverseNow = false;
+			
+			try {
+				reverse = !grid.getGrid()[coords[0]][coords[1]].getHasShip();
+				reverseNow = grid.getGrid()[coords[0]][coords[1]].getIsHit();
+			} catch (ArrayIndexOutOfBoundsException e) {
+				reverse = true;
+				reverseNow = true;
+			}
+			
+			int[] nextHit = previousHit;
+			previousHit = coords;
+			
+			if (reverse) {
+				
+				while (grid.getGrid()[nextHit[0]][nextHit[1]].getIsHit()) {
+					switch (direction) {
+						case 0:
+							nextHit[0] -= 1;
+							break;
+						case 1:
+							nextHit[0] += 1;
+							break;
+						case 2:
+							nextHit[1] -= 1;
+							break;
+						case 3:
+							nextHit[1] += 1;
+							break;
+					}
+				}
+				
+				if (reverseNow) {
+					coords[0] = nextHit[0];
+					coords[1] = nextHit[1];
+					previousHit = coords;
+				}
+				
+				switch (direction) {
+					case 0:
+						if (!reverseNow) {
+							previousHit[0] = nextHit[0] + 1;
+						}
+						direction = 1;
+						break;
+					case 1:
+						direction = 0;
+						if (!reverseNow) {
+							previousHit[0] = nextHit[0] - 1;
+						}
+						break;
+					case 2:
+						direction = 3;
+						if (!reverseNow) {
+							previousHit[1] = nextHit[1] + 1;
+						}
+						break;
+					case 3:
+						direction = 2;
+						if (!reverseNow) {
+							previousHit[1] = nextHit[1] - 1;
+						}
+						break;
+				}
+			}
+			
 		} else {
 			
 			int i = 0;
 			
 			while (true) {
-				int direction = r.nextInt(4);
+				direction = r.nextInt(4);
 			
 				switch (direction) {
 					case 0:
-						coords = new int[] {hitSquares.get(i)[0] + 1, hitSquares.get(i)[1]};
+						coords[0] = hitSquares.get(i)[0] + 1;
+						coords[1] = hitSquares.get(i)[1];
 						break;
 					case 1:
-						coords = new int[] {hitSquares.get(i)[0] - 1, hitSquares.get(i)[1]};
+						coords[0] = hitSquares.get(i)[0] - 1;
+						coords[1] = hitSquares.get(i)[1];
 						break;
 					case 2:
-						coords = new int[] {hitSquares.get(i)[0], hitSquares.get(i)[1] + 1};
+						coords[0] = hitSquares.get(i)[0];
+						coords[1] = hitSquares.get(i)[1] + 1;
 						break;
 					case 3:
-						coords = new int[] {hitSquares.get(i)[0], hitSquares.get(i)[1] - 1};
+						coords[0] = hitSquares.get(i)[0];
+						coords[1] = hitSquares.get(i)[1] - 1;
 						break;
 				}
 			
@@ -72,7 +166,10 @@ public class Skynet {
 				if (isHit.stream().filter(k -> k == false).collect(Collectors.toList()).size() == 0) {
 					i++;
 				}
-				
+			}
+			if (grid.getGrid()[coords[0]][coords[1]].getHasShip()) {
+				previousHit[0] = coords[0];
+				previousHit[1] = coords[1];
 			}
 		}
 				
@@ -81,7 +178,7 @@ public class Skynet {
 	
 	private int[] getRandomSquare(Grid grid) {
 		r = new Random();
-		int[] coords = {r.nextInt(6), r.nextInt(6)};
+		int[] coords = {r.nextInt(grid.getGrid().length), r.nextInt(grid.getGrid()[0].length)};
 		
 		while (grid.getGrid()[coords[0]][coords[1]].getIsHit()) {
 			coords[0] = r.nextInt(6);
