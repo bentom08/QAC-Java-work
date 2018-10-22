@@ -104,7 +104,8 @@ public class Skynet {
 				if (reverseNow) {
 					coords[0] = nextHit[0];
 					coords[1] = nextHit[1];
-					previousHit = coords;
+					previousHit[0] = coords[0];
+					previousHit[1] = coords[1];
 				}
 				
 				switch (direction) {
