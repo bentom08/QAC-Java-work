@@ -7,8 +7,8 @@ import java.util.concurrent.TimeUnit;
 public class Runner {
 
 	public static void main(String[] args) throws InterruptedException {
-		Grid grid = new Grid(7, 7);
-		List<Ship> ships = Arrays.asList(new Ship(4, "Patrol Boat"), new Ship(4, "Submarine"), new Ship(5, "Destroyer"), new Ship(5, "Test"));
+		Grid grid = new Grid(10, 10);
+		List<Ship> ships = Arrays.asList(new Ship(3, "Destroyer"), new Ship(3, "Destroyer"), new Ship(2, "Patrol Boat"), new Ship(4, "Submarine"), new Ship(4, "Battleship"), new Ship(5, "Carrier"));
 		Skynet difficulty = new Skynet("T-1000");
 		
 		

@@ -3,13 +3,25 @@ package com.qa.amsterdamString;
 public class Runner {
 
 	public static void main(String[] args) {
-		System.out.println(amFinder("Am I in Amsterdam"));
+		System.out.println(amFinder("a"));
 	}
 	
 	public static int amFinder(String s) {
 		
 		s = s.toLowerCase();
 		int n = 0;
+		
+		if (s.length() < 2) {
+			return 0;
+		}
+		
+		if (s.length() == 2) {
+			if(s.substring(0, 2).equals("am")) {
+				return 1;
+			} else {
+				return 0;
+			}
+		}
 		
 		if (s.substring(0, 3).equals("am ")) {
 			n++;

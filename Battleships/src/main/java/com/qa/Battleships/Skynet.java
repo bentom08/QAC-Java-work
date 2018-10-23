@@ -23,6 +23,8 @@ public class Skynet {
 			return T800_Difficulty(grid);
 		} else if (difficulty.equals("T-1000")) {
 			return T1000_Difficulty(grid);
+		} else if (difficulty.equals("HAL 9000")) {
+			return HAL9000_Difficulty(grid);
 		}
 		return null;
 	}
@@ -32,6 +34,20 @@ public class Skynet {
 	}
 	
 	private int[] T1000_Difficulty(Grid grid) {
+		List<int[]> hitSquares = getUnsunkShipSquares(grid);
+		int[] coords = new int[2];
+		
+		if (hitSquares.size() == 0) {
+			coords = getRandomSquare(grid);
+			previousHit[0] = -1;
+		} else {
+			coords = getAdjacentSquare(grid, hitSquares, coords);
+		}
+				
+		return coords;
+	}
+	
+	private int[] HAL9000_Difficulty(Grid grid) {
 		List<int[]> hitSquares = getUnsunkShipSquares(grid);
 		int[] coords = new int[2];
 		
