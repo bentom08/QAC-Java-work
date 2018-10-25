@@ -9042,3 +9042,414 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2018-10-25 17:29:54,816 [Worker-191] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
 2018-10-25 17:29:58,217 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-25 17:29:58,217 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:11:00,999 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-10-25 18:11:33,223 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:InfiniteSwampGame:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\pom.xml.
+2018-10-25 18:11:33,239 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:ArrayLists:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\ArrayLists\pom.xml.
+2018-10-25 18:11:34,743 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:34,743 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\ArrayLists\src\main\resources
+2018-10-25 18:11:34,745 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:34,746 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\ArrayLists\src\test\resources
+2018-10-25 18:11:36,071 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:ArrayLists:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\ArrayLists\pom.xml.
+2018-10-25 18:11:36,094 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:36,095 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\ArrayLists\src\main\resources
+2018-10-25 18:11:36,100 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:36,100 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\ArrayLists\src\test\resources
+2018-10-25 18:11:36,450 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Battleships:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Battleships\pom.xml.
+2018-10-25 18:11:36,504 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Blackjack:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Blackjack\pom.xml.
+2018-10-25 18:11:36,663 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:CalaculatorLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\CalaculatorLambdas\pom.xml.
+2018-10-25 18:11:36,843 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Calculator1:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Calculator1\pom.xml.
+2018-10-25 18:11:36,881 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:CheckStringLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\CheckStringLambdas\pom.xml.
+2018-10-25 18:11:36,943 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:DelegateClass:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\DelegateClass\pom.xml.
+2018-10-25 18:11:37,003 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Doggo:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Doggo\pom.xml.
+2018-10-25 18:11:37,035 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Factorials:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Factorials\pom.xml.
+2018-10-25 18:11:37,070 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:GarageClass:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\GarageClass\pom.xml.
+2018-10-25 18:11:37,125 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Glicko:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Glicko\pom.xml.
+2018-10-25 18:11:37,173 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Goldilocks:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Goldilocks\pom.xml.
+2018-10-25 18:11:37,265 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:HelloWorldLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\HelloWorldLambdas\pom.xml.
+2018-10-25 18:11:37,419 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Hospital:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Hospital\pom.xml.
+2018-10-25 18:11:37,507 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:InfiniteSwampGame:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\pom.xml.
+2018-10-25 18:11:37,562 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.qa:api:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\JSON_api\pom.xml.
+2018-10-25 18:11:37,599 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Battleships:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Battleships\pom.xml.
+2018-10-25 18:11:37,707 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:37,707 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Battleships\src\main\resources
+2018-10-25 18:11:37,709 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:37,709 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Battleships\src\test\resources
+2018-10-25 18:11:37,778 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Blackjack:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Blackjack\pom.xml.
+2018-10-25 18:11:38,061 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,061 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Blackjack\src\main\resources
+2018-10-25 18:11:38,063 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,063 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Blackjack\src\test\resources
+2018-10-25 18:11:38,147 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:CalaculatorLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\CalaculatorLambdas\pom.xml.
+2018-10-25 18:11:38,230 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,231 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CalaculatorLambdas\src\main\resources
+2018-10-25 18:11:38,232 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,232 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CalaculatorLambdas\src\test\resources
+2018-10-25 18:11:38,339 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Calculator1:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Calculator1\pom.xml.
+2018-10-25 18:11:38,479 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,480 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Calculator1\src\main\resources
+2018-10-25 18:11:38,481 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,482 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Calculator1\src\test\resources
+2018-10-25 18:11:38,600 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:CheckStringLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\CheckStringLambdas\pom.xml.
+2018-10-25 18:11:38,670 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,670 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CheckStringLambdas\src\main\resources
+2018-10-25 18:11:38,671 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,671 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CheckStringLambdas\src\test\resources
+2018-10-25 18:11:38,815 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:DelegateClass:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\DelegateClass\pom.xml.
+2018-10-25 18:11:38,907 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,907 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\DelegateClass\src\main\resources
+2018-10-25 18:11:38,908 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:38,909 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\DelegateClass\src\test\resources
+2018-10-25 18:11:39,907 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:ArrayLists:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\ArrayLists\pom.xml.
+2018-10-25 18:11:39,931 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Battleships:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Battleships\pom.xml.
+2018-10-25 18:11:39,976 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Blackjack:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Blackjack\pom.xml.
+2018-10-25 18:11:40,013 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:CalaculatorLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\CalaculatorLambdas\pom.xml.
+2018-10-25 18:11:40,038 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Calculator1:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Calculator1\pom.xml.
+2018-10-25 18:11:40,078 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:CheckStringLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\CheckStringLambdas\pom.xml.
+2018-10-25 18:11:40,174 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:DelegateClass:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\DelegateClass\pom.xml.
+2018-10-25 18:11:40,212 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Doggo:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Doggo\pom.xml.
+2018-10-25 18:11:40,267 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Factorials:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Factorials\pom.xml.
+2018-10-25 18:11:40,323 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:GarageClass:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\GarageClass\pom.xml.
+2018-10-25 18:11:40,385 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Glicko:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Glicko\pom.xml.
+2018-10-25 18:11:40,410 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Goldilocks:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Goldilocks\pom.xml.
+2018-10-25 18:11:40,473 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:HelloWorldLambdas:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\HelloWorldLambdas\pom.xml.
+2018-10-25 18:11:40,512 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Hospital:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Hospital\pom.xml.
+2018-10-25 18:11:40,544 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:InfiniteSwampGame:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\pom.xml.
+2018-10-25 18:11:40,572 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.qa:api:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\JSON_api\pom.xml.
+2018-10-25 18:11:40,774 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Library:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Library\pom.xml.
+2018-10-25 18:11:40,839 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:PaintWizard:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\PaintWizard\pom.xml.
+2018-10-25 18:11:40,883 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:PersonClass:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\PersonClass\pom.xml.
+2018-10-25 18:11:40,910 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:Streams:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\Streams\pom.xml.
+2018-10-25 18:11:40,936 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:StringManipulation:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\StringManipulation\pom.xml.
+2018-10-25 18:11:40,960 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:amsterdamString:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\amsterdamString\pom.xml.
+2018-10-25 18:11:41,001 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:coins:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\coins\pom.xml.
+2018-10-25 18:11:41,040 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:deleteMe:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\deleteMe\pom.xml.
+2018-10-25 18:11:41,068 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:flyweight:0.0.1-SNAPSHOT @ C:\Users\Ben\QAC-Java-Work\flyweight\pom.xml.
+2018-10-25 18:11:46,501 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,502 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\ArrayLists\src\main\resources
+2018-10-25 18:11:46,504 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,504 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\ArrayLists\src\test\resources
+2018-10-25 18:11:46,519 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,519 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Battleships\src\main\resources
+2018-10-25 18:11:46,521 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,521 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Battleships\src\test\resources
+2018-10-25 18:11:46,892 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,892 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Blackjack\src\main\resources
+2018-10-25 18:11:46,893 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,893 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Blackjack\src\test\resources
+2018-10-25 18:11:46,989 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,989 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CalaculatorLambdas\src\main\resources
+2018-10-25 18:11:46,990 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:46,990 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CalaculatorLambdas\src\test\resources
+2018-10-25 18:11:47,096 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,096 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Calculator1\src\main\resources
+2018-10-25 18:11:47,097 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,097 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Calculator1\src\test\resources
+2018-10-25 18:11:47,233 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,233 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CheckStringLambdas\src\main\resources
+2018-10-25 18:11:47,235 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,235 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\CheckStringLambdas\src\test\resources
+2018-10-25 18:11:47,371 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,371 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\DelegateClass\src\main\resources
+2018-10-25 18:11:47,372 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,372 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\DelegateClass\src\test\resources
+2018-10-25 18:11:47,460 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,461 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Doggo\src\main\resources
+2018-10-25 18:11:47,462 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,462 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Doggo\src\test\resources
+2018-10-25 18:11:47,544 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,545 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Factorials\src\main\resources
+2018-10-25 18:11:47,545 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,545 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Factorials\src\test\resources
+2018-10-25 18:11:47,726 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,726 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\GarageClass\src\main\resources
+2018-10-25 18:11:47,727 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:47,728 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\GarageClass\src\test\resources
+2018-10-25 18:11:47,761 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-25 18:11:47,763 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Glicko\src\main\resources
+2018-10-25 18:11:47,764 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-25 18:11:47,765 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Glicko\src\test\resources
+2018-10-25 18:11:48,162 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,164 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\GarageClass\src\main\resources
+2018-10-25 18:11:48,169 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,169 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\GarageClass\src\test\resources
+2018-10-25 18:11:48,183 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,184 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Goldilocks\src\main\resources
+2018-10-25 18:11:48,184 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,185 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Goldilocks\src\test\resources
+2018-10-25 18:11:48,293 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,293 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\HelloWorldLambdas\src\main\resources
+2018-10-25 18:11:48,294 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,295 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\HelloWorldLambdas\src\test\resources
+2018-10-25 18:11:48,531 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,531 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Hospital\src\main\resources
+2018-10-25 18:11:48,532 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,532 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Hospital\src\test\resources
+2018-10-25 18:11:48,781 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,782 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:11:48,785 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:48,785 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:11:50,130 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,130 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Goldilocks\src\main\resources
+2018-10-25 18:11:50,131 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,131 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Goldilocks\src\test\resources
+2018-10-25 18:11:50,174 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,175 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\HelloWorldLambdas\src\main\resources
+2018-10-25 18:11:50,176 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,176 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\HelloWorldLambdas\src\test\resources
+2018-10-25 18:11:50,211 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,211 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:11:50,212 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,212 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:11:50,471 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,476 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-10-25 18:11:50,494 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,495 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:11:50,700 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,700 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Library\src\main\resources
+2018-10-25 18:11:50,701 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,701 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Library\src\test\resources
+2018-10-25 18:11:50,825 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,825 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PaintWizard\src\main\resources
+2018-10-25 18:11:50,826 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,826 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PaintWizard\src\test\resources
+2018-10-25 18:11:50,927 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,927 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PersonClass\src\main\resources
+2018-10-25 18:11:50,928 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:50,928 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PersonClass\src\test\resources
+2018-10-25 18:11:51,226 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,226 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Streams\src\main\resources
+2018-10-25 18:11:51,227 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,227 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Streams\src\test\resources
+2018-10-25 18:11:51,396 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,396 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\StringManipulation\src\main\resources
+2018-10-25 18:11:51,397 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,397 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\StringManipulation\src\test\resources
+2018-10-25 18:11:51,606 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,606 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\amsterdamString\src\main\resources
+2018-10-25 18:11:51,608 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,608 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\amsterdamString\src\test\resources
+2018-10-25 18:11:51,925 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,925 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:11:51,926 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,926 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:11:51,964 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,964 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Library\src\main\resources
+2018-10-25 18:11:51,965 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,965 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Library\src\test\resources
+2018-10-25 18:11:51,982 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,982 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PaintWizard\src\main\resources
+2018-10-25 18:11:51,983 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:51,984 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PaintWizard\src\test\resources
+2018-10-25 18:11:52,007 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,007 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PersonClass\src\main\resources
+2018-10-25 18:11:52,008 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,009 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\PersonClass\src\test\resources
+2018-10-25 18:11:52,037 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,037 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Streams\src\main\resources
+2018-10-25 18:11:52,038 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,038 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\Streams\src\test\resources
+2018-10-25 18:11:52,123 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,123 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\coins\src\main\resources
+2018-10-25 18:11:52,147 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,147 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\coins\src\test\resources
+2018-10-25 18:11:52,219 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,219 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\deleteMe\src\main\resources
+2018-10-25 18:11:52,220 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,220 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\deleteMe\src\test\resources
+2018-10-25 18:11:52,319 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,319 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\flyweight\src\main\resources
+2018-10-25 18:11:52,320 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:52,320 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\flyweight\src\test\resources
+2018-10-25 18:11:53,309 [Worker-11: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:11:53,311 [Worker-11: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:11:53,861 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:53,861 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:11:53,862 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:53,863 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:11:58,070 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:58,071 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:11:58,071 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:58,071 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:11:58,271 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:58,274 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:11:58,276 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:11:58,276 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:12:18,792 [Worker-9: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:12:18,792 [Worker-9: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:12:18,856 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:18,856 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:12:18,857 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:18,858 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:12:22,334 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:22,335 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:12:22,335 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:22,336 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:12:22,359 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:22,359 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:12:22,360 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:22,361 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:12:48,075 [Worker-4: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:12:48,075 [Worker-4: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:12:53,459 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:53,460 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:12:53,461 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:53,461 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:12:53,484 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:53,485 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:12:53,485 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:12:53,485 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:16:31,235 [Worker-6: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:16:31,235 [Worker-6: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:16:37,581 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:16:37,581 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:16:37,582 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:16:37,582 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:16:37,613 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:16:37,613 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:16:37,615 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:16:37,615 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:16:48,091 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:16:48,091 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:16:48,092 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:16:48,093 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:18:39,128 [Worker-17: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:18:39,128 [Worker-17: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:18:45,361 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:18:45,361 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:18:45,363 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:18:45,364 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:18:45,400 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:18:45,400 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:18:45,401 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:18:45,402 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:20:03,849 [Worker-24: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:20:03,849 [Worker-24: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:20:09,849 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:20:09,849 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:20:09,850 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:20:09,850 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:20:09,875 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:20:09,875 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:20:09,898 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:20:09,898 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:21:48,365 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:21:48,365 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:21:48,366 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:21:48,367 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:22:03,363 [Worker-24: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:22:03,363 [Worker-24: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:22:09,652 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:22:09,652 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:22:09,654 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:22:09,654 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:22:09,675 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:22:09,675 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:22:09,676 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:22:09,676 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:26:48,699 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:26:48,699 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:26:48,700 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:26:48,700 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:31:49,072 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:31:49,073 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:31:49,074 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:31:49,074 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:33:49,521 [Worker-28: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:33:49,521 [Worker-28: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:33:55,163 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:33:55,164 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:33:55,165 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:33:55,165 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:33:55,213 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:33:55,213 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:33:55,215 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:33:55,215 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:35:07,248 [Worker-30: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:35:07,248 [Worker-30: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:35:12,485 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:35:12,485 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:35:12,486 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:35:12,486 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:35:12,509 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:35:12,509 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:35:12,510 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:35:12,511 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:35:59,744 [Worker-33: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:35:59,745 [Worker-33: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:36:04,897 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:36:04,898 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:36:04,899 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:36:04,899 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:36:04,925 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:36:04,925 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:36:04,926 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:36:04,927 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:36:49,321 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:36:49,321 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:36:49,323 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:36:49,323 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:37:00,291 [Worker-28: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:37:00,291 [Worker-28: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:37:05,318 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:37:05,319 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:37:05,320 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:37:05,320 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:37:05,344 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:37:05,344 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:37:05,345 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:37:05,345 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:38:38,064 [Worker-34: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:38:38,064 [Worker-34: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:38:43,358 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:38:43,358 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:38:43,359 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:38:43,359 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:38:43,383 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:38:43,384 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:38:43,385 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:38:43,386 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:41:49,654 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:41:49,655 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:41:49,656 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:41:49,656 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:45:24,423 [Worker-36: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:45:24,423 [Worker-36: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:45:30,218 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:45:30,222 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:45:30,223 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:45:30,224 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:45:30,255 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:45:30,255 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:45:30,256 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:45:30,256 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:46:49,962 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:46:49,963 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:46:49,963 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:46:49,964 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:48:02,450 [Worker-38: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:48:02,450 [Worker-38: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:48:07,781 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:48:07,781 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:48:07,782 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:48:07,783 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:48:07,803 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:48:07,804 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:48:07,805 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:48:07,805 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:49:04,777 [Worker-38: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:49:04,778 [Worker-38: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:49:10,250 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:49:10,251 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:49:10,251 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:49:10,251 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:49:10,312 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:49:10,313 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:49:10,314 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:49:10,314 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:50:38,515 [Worker-42: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ben\QAC-Java-Work\JSON_api
+2018-10-25 18:50:38,516 [Worker-42: Launching Executing install in C__Users_Ben_QAC-Java-Work_JSON_api] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 18:50:43,900 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:50:43,901 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:50:43,902 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:50:43,902 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
+2018-10-25 18:50:43,926 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

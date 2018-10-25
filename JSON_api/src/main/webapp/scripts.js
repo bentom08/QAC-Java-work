@@ -22,12 +22,12 @@ function getDeleteVal() {
 		return document.getElementById("delete").value;
 }
 
-function httpDelete() {
+function httpDelete(x) {
 		var xmlHttp = new XMLHttpRequest();
-		xmlHttp.open("DELETE", "http://localhost:8080/api-0.0.1-SNAPSHOT/api/movie/deleteMovie/" + getDeleteVal(), false);
+		xmlHttp.open("DELETE", "http://localhost:8080/api-0.0.1-SNAPSHOT/api/movie/deleteMovie/" + x, false);
 		xmlHttp.send(null);
 
-		document.getElementById("Output").innerHTML = "id " + getDeleteVal() + " Deleted";
+		getTable();
 }
 
 function getTitle() {
@@ -51,8 +51,6 @@ function addMovie() {
 			genre: getGenre(),
 			ageRating: getRating()
 		}));
-
-		document.getElementById("Output").innerHTML = "Movie Added!";
 }
 
 function displayJSON(x) {
@@ -61,19 +59,18 @@ function displayJSON(x) {
 		document.getElementById("Output").innerHTML = "id: " + json.id + "<br>Title: " + json.title  + "<br>Genre: " + json.genre + "<br>Age Rating: " + json.ageRating;
 }
 
-function getTable(myurl) {
+function getTable() {
 	var xmlHttp = new XMLHttpRequest();
-	xmlHttp.open("GET", myurl, false);
+	xmlHttp.open("GET", "http://localhost:8080/api-0.0.1-SNAPSHOT/api/movie/getAllMovies", false);
 	xmlHttp.send(null);
-	var n = xmlHttp.response.length;
 	var string = '';
 	var array = eval(xmlHttp.response);
+	var n = array.length;
 
 	for (var i = 0; i < n; i++) {
 		var row = array[i];
-		var json = JSON.parse('"'  + row + '"');
-		string += "<tr><td>" + json.id + "</td><td>" + json.title + "</td><td>" + json.genre + "</td><td>" + json.ageRating + "</td></tr>";
+		string += "<tr><td>" + row.id + "</td><td>" + row.title + "</td><td>" + row.genre + "</td><td>" + row.ageRating + '</td><td><input type="button" value="delete" onclick=\'httpDelete('+ row.id + ')\'/>' + "</td></tr>";
 	}
 
-	document.getElementById("Table").innerHTML = "<th>ID</th><th>Title</th><th>Genre</th><th>Age Rating</th>" + string;
+	document.getElementById("Table").innerHTML = '<th>ID</th><th>Title</th><th>Genre</th><th>Age Rating</th>' + string;
 }
