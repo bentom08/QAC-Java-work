@@ -23,10 +23,10 @@ public class MovieEndPoint {
 		return service.getAllMovies();
 	}
 	
-	@Path("/getMovie")
+	@Path("/getMovie/{id}")
 	@GET
 	@Produces({ "application/json" })
-	public String getMovie(Long id) {
+	public String getMovie(@PathParam("id") Long id) {
 		return service.getMovie(id);
 	}
 	
@@ -45,7 +45,7 @@ public class MovieEndPoint {
 	}
 	
 	@Path("/updateMovie/{id}")
-	@GET
+	@POST
 	@Produces({ "application/json" })
 	public String updateMovie(String movie, @PathParam("id") Long id) {
 		return service.updateMovie(movie, id);
