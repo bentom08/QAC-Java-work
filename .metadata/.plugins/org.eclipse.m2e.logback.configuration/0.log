@@ -8966,3 +8966,13 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2018-10-25 14:42:46,763 [Worker-142] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
 2018-10-25 14:42:50,330 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-25 14:42:50,331 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-10-25 14:42:50,336 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 14:42:50,337 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 14:56:23,639 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 14:56:23,639 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 14:56:23,640 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 14:56:23,640 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 14:56:28,911 [Worker-150] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Admin\Documents\QAC-Java-Work\JSON_api
+2018-10-25 14:56:28,912 [Worker-150] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 14:56:32,323 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 14:56:32,324 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
