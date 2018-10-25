@@ -8962,3 +8962,7 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2018-10-25 14:17:14,013 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-10-25 14:17:14,015 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-25 14:17:14,016 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Documents\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 14:42:46,763 [Worker-142] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Admin\Documents\QAC-Java-Work\JSON_api
+2018-10-25 14:42:46,763 [Worker-142] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-10-25 14:42:50,330 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 14:42:50,331 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
