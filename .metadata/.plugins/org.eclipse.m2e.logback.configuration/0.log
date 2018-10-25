@@ -9453,3 +9453,10 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2018-10-25 18:50:43,902 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-25 18:50:43,902 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
 2018-10-25 18:50:43,926 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:50:43,927 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-25 18:50:43,928 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:50:43,928 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\JSON_api\src\test\resources
+2018-10-25 18:51:50,224 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:51:50,224 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\main\resources
+2018-10-25 18:51:50,226 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-25 18:51:50,226 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ben\QAC-Java-Work\InfiniteSwampGame\src\test\resources
